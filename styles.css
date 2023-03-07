@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+
+  padding: 25px;
+  border-radius: 20px;
+}
+.title {
+  background-color: rgba(97, 74, 231, 0.73);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+.copy {
+  width: auto;
+  height: 30px;
+  background-color: red;
+  padding: 5px 10px;
+  background-color: rgba(44, 11, 232, 0.38);
+  border-radius: 5px;
+  box-shadow: 2.5px 2.5px;
+}
+.copy:active {
+  transform: translate(2.5px, 2.5px);
+  box-shadow: none;
+}
+.copy:hover {
+  cursor: pointer;
+}
+#text {
+  background-color: rgba(128, 115, 204, 1);
+  padding: 14px;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  line-height: 30px;
+}
